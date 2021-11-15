@@ -1,0 +1,9 @@
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\bin\Debug\NedenOOPIlkel.exe.config
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\bin\Debug\NedenOOPIlkel.exe
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\bin\Debug\NedenOOPIlkel.pdb
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.Form1.resources
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.Properties.Resources.resources
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.csproj.GenerateResource.cache
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.exe
+D:\wissen\4-OOP\NedenOOPIlkel\NedenOOPIlkel\obj\Debug\NedenOOPIlkel.pdb

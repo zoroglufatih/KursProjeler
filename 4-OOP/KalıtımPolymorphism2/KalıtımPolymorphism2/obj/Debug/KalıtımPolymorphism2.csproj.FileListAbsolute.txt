@@ -1,0 +1,10 @@
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\bin\Debug\KalıtımPolymorphism2.exe.config
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\bin\Debug\KalıtımPolymorphism2.exe
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\bin\Debug\KalıtımPolymorphism2.pdb
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.Form1.resources
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.Properties.Resources.resources
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.csproj.GenerateResource.cache
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.exe
+D:\wissen\4-OOP\KalıtımPolymorphism2\KalıtımPolymorphism2\obj\Debug\KalıtımPolymorphism2.pdb

@@ -1,0 +1,6 @@
+D:\wissen\4-OOP\FakeDataT\FakeDataT\bin\Debug\FakeDataT.dll
+D:\wissen\4-OOP\FakeDataT\FakeDataT\bin\Debug\FakeDataT.pdb
+D:\wissen\4-OOP\FakeDataT\FakeDataT\obj\Debug\FakeDataT.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\FakeDataT\FakeDataT\obj\Debug\FakeDataT.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\FakeDataT\FakeDataT\obj\Debug\FakeDataT.dll
+D:\wissen\4-OOP\FakeDataT\FakeDataT\obj\Debug\FakeDataT.pdb

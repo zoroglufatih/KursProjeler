@@ -1,0 +1,10 @@
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\bin\Debug\NedenOOPYapisal.exe.config
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\bin\Debug\NedenOOPYapisal.exe
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\bin\Debug\NedenOOPYapisal.pdb
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.Form1.resources
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.Properties.Resources.resources
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.csproj.GenerateResource.cache
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.exe
+D:\wissen\4-OOP\NedenOOPYapisal\NedenOOPYapisal\obj\Debug\NedenOOPYapisal.pdb

@@ -1,0 +1,10 @@
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\bin\Debug\GenericClass.exe.config
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\bin\Debug\GenericClass.exe
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\bin\Debug\GenericClass.pdb
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.csproj.AssemblyReference.cache
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.Form1.resources
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.Properties.Resources.resources
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.csproj.GenerateResource.cache
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.exe
+C:\Users\Fatih\source\repos\GenericClass\GenericClass\obj\Debug\GenericClass.pdb

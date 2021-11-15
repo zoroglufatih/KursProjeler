@@ -1,0 +1,12 @@
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\bin\Debug\HesapMakinesiReflection.exe.config
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\bin\Debug\HesapMakinesiReflection.exe
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\bin\Debug\HesapMakinesiReflection.pdb
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\bin\Debug\HesapDll.dll
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\bin\Debug\HesapDll.pdb
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.Form1.resources
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.Properties.Resources.resources
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.csproj.GenerateResource.cache
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.exe
+D:\wissen\4-OOP\HesapMakinesiReflection\HesapMakinesiReflection\obj\Debug\HesapMakinesiReflection.pdb

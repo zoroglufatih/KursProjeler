@@ -1,0 +1,12 @@
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\bin\Debug\PersonelProjeT.exe.config
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\bin\Debug\PersonelProjeT.exe
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\bin\Debug\PersonelProjeT.pdb
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\bin\Debug\FakeDataTT.dll
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\bin\Debug\FakeDataTT.pdb
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.Form1.resources
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.Properties.Resources.resources
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.csproj.GenerateResource.cache
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.exe
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.pdb
+D:\wissen\4-OOP\PersonelProjeT\PersonelProjeT\obj\Debug\PersonelProjeT.csproj.AssemblyReference.cache

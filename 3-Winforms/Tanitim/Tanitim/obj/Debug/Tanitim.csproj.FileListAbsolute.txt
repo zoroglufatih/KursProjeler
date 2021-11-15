@@ -1,0 +1,10 @@
+D:\wissen\winforms\Tanitim\Tanitim\bin\Debug\Tanitim.exe.config
+D:\wissen\winforms\Tanitim\Tanitim\bin\Debug\Tanitim.exe
+D:\wissen\winforms\Tanitim\Tanitim\bin\Debug\Tanitim.pdb
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.csproj.AssemblyReference.cache
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.Properties.Resources.resources
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.csproj.GenerateResource.cache
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.csproj.CoreCompileInputs.cache
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.exe
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.pdb
+D:\wissen\winforms\Tanitim\Tanitim\obj\Debug\Tanitim.frmAna.resources

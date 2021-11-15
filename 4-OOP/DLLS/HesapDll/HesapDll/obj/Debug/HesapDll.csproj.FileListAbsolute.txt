@@ -1,0 +1,6 @@
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\bin\Debug\HesapDll.dll
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\bin\Debug\HesapDll.pdb
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\obj\Debug\HesapDll.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\obj\Debug\HesapDll.dll
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\obj\Debug\HesapDll.pdb
+D:\wissen\4-OOP\DLLS\HesapDll\HesapDll\obj\Debug\HesapDll.csproj.AssemblyReference.cache

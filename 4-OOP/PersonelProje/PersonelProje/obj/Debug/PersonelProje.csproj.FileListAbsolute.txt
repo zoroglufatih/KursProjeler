@@ -1,0 +1,17 @@
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\PersonelProje.exe.config
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\PersonelProje.exe
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\PersonelProje.pdb
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeData.dll
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeData.pdb
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.Form1.resources
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.Properties.Resources.resources
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.csproj.GenerateResource.cache
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.exe
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.pdb
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeDataT.dll
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeDataT.pdb
+D:\wissen\4-OOP\PersonelProje\PersonelProje\obj\Debug\PersonelProje.csproj.CopyComplete
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeDataTT.dll
+D:\wissen\4-OOP\PersonelProje\PersonelProje\bin\Debug\FakeDataTT.pdb

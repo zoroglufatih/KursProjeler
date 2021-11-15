@@ -1,0 +1,14 @@
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.exe
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.deps.json
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.runtimeconfig.json
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.runtimeconfig.dev.json
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.dll
+D:\wissen\4-OOP\Scope3\Scope3\bin\Debug\netcoreapp3.1\Scope3.pdb
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.GeneratedMSBuildEditorConfig.editorconfig
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.AssemblyInfoInputs.cache
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.AssemblyInfo.cs
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.dll
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.pdb
+D:\wissen\4-OOP\Scope3\Scope3\obj\Debug\netcoreapp3.1\Scope3.genruntimeconfig.cache

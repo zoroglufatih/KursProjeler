@@ -1,0 +1,10 @@
+D:\wissen\4-OOP\Kalitim\Kalitim\bin\Debug\Kalitim.exe.config
+D:\wissen\4-OOP\Kalitim\Kalitim\bin\Debug\Kalitim.exe
+D:\wissen\4-OOP\Kalitim\Kalitim\bin\Debug\Kalitim.pdb
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.Properties.Resources.resources
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.csproj.GenerateResource.cache
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.exe
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.pdb
+D:\wissen\4-OOP\Kalitim\Kalitim\obj\Debug\Kalitim.Form1.resources

@@ -1,0 +1,14 @@
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.exe
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.deps.json
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.runtimeconfig.json
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.runtimeconfig.dev.json
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.dll
+D:\wissen\4-OOP\Yapici\Yapici\bin\Debug\netcoreapp3.1\Yapici.pdb
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.GeneratedMSBuildEditorConfig.editorconfig
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.AssemblyInfoInputs.cache
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.AssemblyInfo.cs
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.dll
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.pdb
+D:\wissen\4-OOP\Yapici\Yapici\obj\Debug\netcoreapp3.1\Yapici.genruntimeconfig.cache

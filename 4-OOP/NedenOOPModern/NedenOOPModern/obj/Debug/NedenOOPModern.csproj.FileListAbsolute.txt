@@ -1,0 +1,10 @@
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\bin\Debug\NedenOOPModern.exe.config
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\bin\Debug\NedenOOPModern.exe
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\bin\Debug\NedenOOPModern.pdb
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.Form1.resources
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.Properties.Resources.resources
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.csproj.GenerateResource.cache
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.exe
+D:\wissen\4-OOP\NedenOOPModern\NedenOOPModern\obj\Debug\NedenOOPModern.pdb

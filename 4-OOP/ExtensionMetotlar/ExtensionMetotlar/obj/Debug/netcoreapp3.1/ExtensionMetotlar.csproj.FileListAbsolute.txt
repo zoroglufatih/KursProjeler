@@ -1,0 +1,14 @@
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.exe
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.deps.json
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.runtimeconfig.json
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.runtimeconfig.dev.json
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.dll
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\bin\Debug\netcoreapp3.1\ExtensionMetotlar.pdb
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.csproj.AssemblyReference.cache
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.GeneratedMSBuildEditorConfig.editorconfig
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.AssemblyInfoInputs.cache
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.AssemblyInfo.cs
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.csproj.CoreCompileInputs.cache
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.dll
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.pdb
+D:\wissen\4-OOP\ExtensionMetotlar\ExtensionMetotlar\obj\Debug\netcoreapp3.1\ExtensionMetotlar.genruntimeconfig.cache
