@@ -1,0 +1,9 @@
+Access Mod iki seviyeli olur
+A- Class seviyesi 2 adet olur
+	1- Internal (Boþ) kendi projesinde eriþilir. Diðer projelerde eriþilemez.
+	2- Public Her yerden eriþilebilir.
+
+B)Üye seviyesinde 
+	1- PUBLÝC her yerden eriþilir.
+	2- PRÝVATE ancak yalnýz metot yazarak eriþilebilir. Yardýmcý projede yeni bir sýnýfýn metodundan eriþemeyiz.
+	3- PROTECTED ancak yalnýz metot yazarak eriþilebilir. Yardýmcý projede yeni bir sýnýfýn metodundan eriþebiliriz.
