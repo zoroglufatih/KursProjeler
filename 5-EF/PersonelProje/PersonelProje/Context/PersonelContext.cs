@@ -56,6 +56,7 @@ namespace PersonelProje.Context
         public int SehirId { get; set; }
         public string Soyad { get; set; }
         public decimal Maas { get; set; }
+        public string Cins { get; set; }
         [ForeignKey("SehirId")]
         public virtual Sehir Sehir { get; set; }
     }

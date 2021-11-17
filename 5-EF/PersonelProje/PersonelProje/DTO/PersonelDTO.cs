@@ -12,6 +12,7 @@ namespace PersonelProje.DTO
         public string Ad { get; set; }
         public string Soyad { get; set; }
         public decimal Maas { get; set; }
+        public string Cins { get; set; }
         public string SehirAd { get; set; }
     }
 }

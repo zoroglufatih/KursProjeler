@@ -96,6 +96,10 @@
     <Compile Include="Migrations\202111161737070_PersonelEklendi.Designer.cs">
       <DependentUpon>202111161737070_PersonelEklendi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111171518363_cinsEklendi.cs" />
+    <Compile Include="Migrations\202111171518363_cinsEklendi.Designer.cs">
+      <DependentUpon>202111171518363_cinsEklendi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -119,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111161737070_PersonelEklendi.resx">
       <DependentUpon>202111161737070_PersonelEklendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111171518363_cinsEklendi.resx">
+      <DependentUpon>202111171518363_cinsEklendi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

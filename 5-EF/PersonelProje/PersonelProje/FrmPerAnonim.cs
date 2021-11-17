@@ -31,6 +31,7 @@ namespace PersonelProje
                 Name = x.Ad,
                 Surname = x.Soyad,
                 Salary = x.Maas,
+                Gender = x.Cins,
                 CityName = x.Sehir.SehirAd
             }).ToList();
             dataGridView1.DataSource = plist;
