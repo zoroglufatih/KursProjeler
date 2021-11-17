@@ -18,3 +18,4 @@ D:\wissen\Kodlar\5-EF\PersonelProje\PersonelProje\obj\Debug\PersonelProje.FrmSeh
 D:\wissen\Kodlar\5-EF\PersonelProje\PersonelProje\obj\Debug\PersonelProje.Migrations.PersonelEklendi.resources
 D:\wissen\Kodlar\5-EF\PersonelProje\PersonelProje\obj\Debug\PersonelProje.FrmPersonel.resources
 D:\wissen\Kodlar\5-EF\PersonelProje\PersonelProje\obj\Debug\PersonelProje.FrmPerDTO.resources
+D:\wissen\Kodlar\5-EF\PersonelProje\PersonelProje\obj\Debug\PersonelProje.FrmPerAnonim.resources

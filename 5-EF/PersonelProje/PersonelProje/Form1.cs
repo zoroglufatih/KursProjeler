@@ -34,5 +34,11 @@ namespace PersonelProje
             FrmPerDTO frm = new FrmPerDTO();
             frm.Show();
         }
+
+        private void anonimToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPerAnonim frm = new FrmPerAnonim();
+            frm.Show();
+        }
     }
 }
