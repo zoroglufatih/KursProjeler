@@ -19,6 +19,8 @@ namespace PersonelProje
             InitializeComponent();
         }
         PersonelContext db = new PersonelContext();
+        Personel secPersonel = new Personel();
+        List<PersonelDTO> plist = new List<PersonelDTO>();
         private void FrmPerDTO_Load(object sender, EventArgs e)
         {
             Doldur();
@@ -27,7 +29,7 @@ namespace PersonelProje
 
         private void Doldur()
         {
-            List<PersonelDTO> plist = db.Set<Personel>().Select(x => new PersonelDTO
+            plist = db.Set<Personel>().Select(x => new PersonelDTO
             {
                 Id = x.Id,
                 Ad = x.Ad,
@@ -47,6 +49,87 @@ namespace PersonelProje
             txToplamK.Text = plist.Where(x => x.Cins == "K").Sum(x => x.Maas).ToString();
             txOrtEr.Text = plist.Where(x => x.Cins == "E").Average(x => x.Maas).ToString();
             txOrtKd.Text = plist.Where(x => x.Cins == "K").Average(x => x.Maas).ToString();
+        }
+
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int secId = (int)dataGridView1.CurrentRow.Cells[0].Value;
+            secPersonel = db.Set<Personel>().Find(secId);
+            txAd.Text = secPersonel.Ad;
+            txSoyad.Text = secPersonel.Soyad;
+            txCins.Text = secPersonel.Cins;
+            txMaas.Text = secPersonel.Maas.ToString();
+            txSehirId.Text = secPersonel.SehirId.ToString();
+        }
+
+        private void ckAdSira_CheckedChanged(object sender, EventArgs e)
+        {
+            //plist = plist.OrderBy(x => x.Ad).ToList();
+            //dataGridView1.DataSource = plist;
+        }
+
+        private void ckMaasSira_CheckedChanged(object sender, EventArgs e)
+        {
+            //plist = plist.OrderBy(x => x.Maas).ToList();
+            //dataGridView1.DataSource = plist;
+        }
+
+        private void ckAdSira_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (ckAdSira.Checked)
+            {
+                plist = plist.OrderBy(x => x.Ad).ToList();
+                dataGridView1.DataSource = plist;
+            }
+            else
+            {
+                plist = plist.OrderBy(x => x.Id).ToList();
+                dataGridView1.DataSource = plist;
+            }
+        }
+
+        private void ckMaasSira_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (ckMaasSira.Checked)
+            {
+                plist = plist.OrderBy(x => x.Maas).ToList();
+                dataGridView1.DataSource = plist;
+            }
+            else
+            {
+                plist = plist.OrderBy(x => x.Id).ToList();
+                dataGridView1.DataSource = plist;
+            }
+        }
+
+        private void txAra_TextChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txAra.Text))
+            {
+                List<PersonelDTO> ylist = plist.Where(x => x.Ad.ToLower().Contains(txAra.Text.ToLower()) ||
+                    x.Soyad.ToLower().Contains(txAra.Text.ToLower())).ToList();
+                dataGridView1.DataSource = ylist;
+            }
+            else
+            {
+                Doldur();
+                //plist = plist.OrderBy(x => x.Id).ToList();
+                //dataGridView1.DataSource = plist;
+            }
+            
+        }
+
+        private void btnGiris_Click(object sender, EventArgs e)
+        {
+            Personel ypersonel = new Personel();
+            ypersonel.Ad = txAd.Text;
+            ypersonel.Soyad = txSoyad.Text;
+            ypersonel.Cins = txCins.Text;
+            ypersonel.Maas = Convert.ToDecimal(txMaas.Text);
+            ypersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            db.Set<Personel>().Add(ypersonel);
+            db.SaveChanges();
+            Doldur();
         }
     }
 }
