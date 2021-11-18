@@ -131,5 +131,23 @@ namespace PersonelProje
             db.SaveChanges();
             Doldur();
         }
+
+        private void btnGuncel_Click(object sender, EventArgs e)
+        {
+            secPersonel.Ad = txAd.Text;
+            secPersonel.Cins = txCins.Text;
+            secPersonel.Soyad = txSoyad.Text;
+            secPersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            secPersonel.Maas = Convert.ToDecimal(txMaas.Text);
+            db.SaveChanges();
+            Doldur();
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            db.Set<Personel>().Remove(secPersonel);
+            db.SaveChanges();
+            Doldur();
+        }
     }
 }

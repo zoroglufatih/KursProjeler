@@ -324,6 +324,7 @@ namespace PersonelProje
             this.btnGuncel.TabIndex = 30;
             this.btnGuncel.Text = "Güncelle";
             this.btnGuncel.UseVisualStyleBackColor = true;
+            this.btnGuncel.Click += new System.EventHandler(this.btnGuncel_Click);
             // 
             // btnSil
             // 
@@ -333,6 +334,7 @@ namespace PersonelProje
             this.btnSil.TabIndex = 31;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // FrmPerDTO
             // 
