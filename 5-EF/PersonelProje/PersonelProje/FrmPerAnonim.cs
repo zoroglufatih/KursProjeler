@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace PersonelProje
             InitializeComponent();
         }
         PersonelContext db = new PersonelContext();
+        //PersonelContext db = DbConnection.getconnection();
         private void FrmPerAnonim_Load(object sender, EventArgs e)
         {
             Doldur();

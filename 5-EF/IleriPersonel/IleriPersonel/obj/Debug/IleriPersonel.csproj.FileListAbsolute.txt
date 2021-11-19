@@ -1,0 +1,17 @@
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\IleriPersonel.exe.config
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\IleriPersonel.exe
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\IleriPersonel.pdb
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\EntityFramework.dll
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\EntityFramework.SqlServer.dll
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\EntityFramework.xml
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\bin\Debug\EntityFramework.SqlServer.xml
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.csproj.AssemblyReference.cache
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmTemel.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Properties.Resources.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.csproj.GenerateResource.cache
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.csproj.CoreCompileInputs.cache
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.csproj.CopyComplete
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.exe
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.pdb
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmSehir.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Migrations.ilk.resources

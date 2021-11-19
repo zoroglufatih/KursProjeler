@@ -53,7 +53,6 @@ namespace PersonelProje
             this.label12 = new System.Windows.Forms.Label();
             this.txMaas = new System.Windows.Forms.TextBox();
             this.txCins = new System.Windows.Forms.TextBox();
-            this.txSehirId = new System.Windows.Forms.TextBox();
             this.ckAdSira = new System.Windows.Forms.CheckBox();
             this.ckMaasSira = new System.Windows.Forms.CheckBox();
             this.txAra = new System.Windows.Forms.TextBox();
@@ -61,6 +60,7 @@ namespace PersonelProje
             this.btnGiris = new System.Windows.Forms.Button();
             this.btnGuncel = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
+            this.cmPer = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,14 +189,14 @@ namespace PersonelProje
             // 
             this.txAd.Location = new System.Drawing.Point(673, 75);
             this.txAd.Name = "txAd";
-            this.txAd.Size = new System.Drawing.Size(100, 20);
+            this.txAd.Size = new System.Drawing.Size(121, 20);
             this.txAd.TabIndex = 15;
             // 
             // txSoyad
             // 
             this.txSoyad.Location = new System.Drawing.Point(673, 101);
             this.txSoyad.Name = "txSoyad";
-            this.txSoyad.Size = new System.Drawing.Size(100, 20);
+            this.txSoyad.Size = new System.Drawing.Size(121, 20);
             this.txSoyad.TabIndex = 16;
             // 
             // label8
@@ -248,22 +248,15 @@ namespace PersonelProje
             // 
             this.txMaas.Location = new System.Drawing.Point(673, 130);
             this.txMaas.Name = "txMaas";
-            this.txMaas.Size = new System.Drawing.Size(100, 20);
+            this.txMaas.Size = new System.Drawing.Size(121, 20);
             this.txMaas.TabIndex = 22;
             // 
             // txCins
             // 
             this.txCins.Location = new System.Drawing.Point(673, 156);
             this.txCins.Name = "txCins";
-            this.txCins.Size = new System.Drawing.Size(100, 20);
+            this.txCins.Size = new System.Drawing.Size(121, 20);
             this.txCins.TabIndex = 23;
-            // 
-            // txSehirId
-            // 
-            this.txSehirId.Location = new System.Drawing.Point(673, 182);
-            this.txSehirId.Name = "txSehirId";
-            this.txSehirId.Size = new System.Drawing.Size(100, 20);
-            this.txSehirId.TabIndex = 24;
             // 
             // ckAdSira
             // 
@@ -336,11 +329,20 @@ namespace PersonelProje
             this.btnSil.UseVisualStyleBackColor = true;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
+            // cmPer
+            // 
+            this.cmPer.FormattingEnabled = true;
+            this.cmPer.Location = new System.Drawing.Point(673, 182);
+            this.cmPer.Name = "cmPer";
+            this.cmPer.Size = new System.Drawing.Size(121, 21);
+            this.cmPer.TabIndex = 32;
+            // 
             // FrmPerDTO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(843, 450);
+            this.Controls.Add(this.cmPer);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btnGuncel);
             this.Controls.Add(this.btnGiris);
@@ -348,7 +350,6 @@ namespace PersonelProje
             this.Controls.Add(this.txAra);
             this.Controls.Add(this.ckMaasSira);
             this.Controls.Add(this.ckAdSira);
-            this.Controls.Add(this.txSehirId);
             this.Controls.Add(this.txCins);
             this.Controls.Add(this.txMaas);
             this.Controls.Add(this.label12);
@@ -408,7 +409,6 @@ namespace PersonelProje
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txMaas;
         private System.Windows.Forms.TextBox txCins;
-        private System.Windows.Forms.TextBox txSehirId;
         private System.Windows.Forms.CheckBox ckAdSira;
         private System.Windows.Forms.CheckBox ckMaasSira;
         private System.Windows.Forms.TextBox txAra;
@@ -416,5 +416,6 @@ namespace PersonelProje
         private System.Windows.Forms.Button btnGiris;
         private System.Windows.Forms.Button btnGuncel;
         private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.ComboBox cmPer;
     }
 }

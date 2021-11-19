@@ -24,7 +24,18 @@ namespace PersonelProje
         private void FrmPerDTO_Load(object sender, EventArgs e)
         {
             Doldur();
-            
+            CmDoldur();
+        }
+
+        private void CmDoldur()
+        {
+            var slist = db.Set<Sehir>().Select(x => new
+            {
+                x.SehirId, x.SehirAd
+            }).ToList();
+            cmPer.DataSource = slist;
+            cmPer.DisplayMember = "SehirAd";
+            cmPer.ValueMember = "SehirId";
         }
 
         private void Doldur()
@@ -59,7 +70,8 @@ namespace PersonelProje
             txSoyad.Text = secPersonel.Soyad;
             txCins.Text = secPersonel.Cins;
             txMaas.Text = secPersonel.Maas.ToString();
-            txSehirId.Text = secPersonel.SehirId.ToString();
+            //txSehirId.Text = secPersonel.SehirId.ToString();
+            cmPer.SelectedValue = secPersonel.SehirId;
         }
 
         private void ckAdSira_CheckedChanged(object sender, EventArgs e)
@@ -126,7 +138,8 @@ namespace PersonelProje
             ypersonel.Soyad = txSoyad.Text;
             ypersonel.Cins = txCins.Text;
             ypersonel.Maas = Convert.ToDecimal(txMaas.Text);
-            ypersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            //ypersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            ypersonel.SehirId = (int)cmPer.SelectedValue;
             db.Set<Personel>().Add(ypersonel);
             db.SaveChanges();
             Doldur();
@@ -137,7 +150,8 @@ namespace PersonelProje
             secPersonel.Ad = txAd.Text;
             secPersonel.Cins = txCins.Text;
             secPersonel.Soyad = txSoyad.Text;
-            secPersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            //secPersonel.SehirId = Convert.ToInt32(txSehirId.Text);
+            secPersonel.SehirId = (int)cmPer.SelectedValue;
             secPersonel.Maas = Convert.ToDecimal(txMaas.Text);
             db.SaveChanges();
             Doldur();
