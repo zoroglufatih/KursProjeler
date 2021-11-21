@@ -13,7 +13,6 @@ namespace IleriPersonel
 {
     public partial class FrmTemel : Form
     {
-        PersonelContext db = new PersonelContext();
         public FrmTemel()
         {
             InitializeComponent();

@@ -15,3 +15,5 @@ D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.exe
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.pdb
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmSehir.resources
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Migrations.ilk.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmCalisan.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Form1.resources

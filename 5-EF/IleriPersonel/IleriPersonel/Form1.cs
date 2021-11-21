@@ -16,5 +16,16 @@ namespace IleriPersonel
         {
             InitializeComponent();
         }
+
+        private void çalışanlarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCalisan frm = new FrmCalisan();
+            frm.Show();
+        }
+
+        private void eğitmenlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
