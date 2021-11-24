@@ -42,6 +42,10 @@ namespace IleriPersonel
             this.cbIlce = new System.Windows.Forms.ComboBox();
             this.cbSehir = new System.Windows.Forms.ComboBox();
             this.cbEgitim = new System.Windows.Forms.ComboBox();
+            this.lsAdres = new System.Windows.Forms.ListBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnUpd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,6 +56,7 @@ namespace IleriPersonel
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(613, 150);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
             // 
             // label2
             // 
@@ -153,11 +158,53 @@ namespace IleriPersonel
             this.cbEgitim.Size = new System.Drawing.Size(121, 21);
             this.cbEgitim.TabIndex = 13;
             // 
+            // lsAdres
+            // 
+            this.lsAdres.FormattingEnabled = true;
+            this.lsAdres.Location = new System.Drawing.Point(683, 241);
+            this.lsAdres.Name = "lsAdres";
+            this.lsAdres.Size = new System.Drawing.Size(177, 95);
+            this.lsAdres.TabIndex = 14;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(683, 342);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 15;
+            this.btnAdd.Text = "Ekle";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(683, 371);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(75, 23);
+            this.btnDel.TabIndex = 16;
+            this.btnDel.Text = "Sil";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // btnUpd
+            // 
+            this.btnUpd.Location = new System.Drawing.Point(785, 342);
+            this.btnUpd.Name = "btnUpd";
+            this.btnUpd.Size = new System.Drawing.Size(75, 23);
+            this.btnUpd.TabIndex = 17;
+            this.btnUpd.Text = "Güncelle";
+            this.btnUpd.UseVisualStyleBackColor = true;
+            this.btnUpd.Click += new System.EventHandler(this.btnUpd_Click);
+            // 
             // FrmCalisan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 450);
+            this.Controls.Add(this.btnUpd);
+            this.Controls.Add(this.btnDel);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.lsAdres);
             this.Controls.Add(this.cbEgitim);
             this.Controls.Add(this.cbSehir);
             this.Controls.Add(this.cbIlce);
@@ -187,6 +234,10 @@ namespace IleriPersonel
             this.Controls.SetChildIndex(this.cbIlce, 0);
             this.Controls.SetChildIndex(this.cbSehir, 0);
             this.Controls.SetChildIndex(this.cbEgitim, 0);
+            this.Controls.SetChildIndex(this.lsAdres, 0);
+            this.Controls.SetChildIndex(this.btnAdd, 0);
+            this.Controls.SetChildIndex(this.btnDel, 0);
+            this.Controls.SetChildIndex(this.btnUpd, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,5 +259,9 @@ namespace IleriPersonel
         private System.Windows.Forms.ComboBox cbIlce;
         private System.Windows.Forms.ComboBox cbSehir;
         private System.Windows.Forms.ComboBox cbEgitim;
+        private System.Windows.Forms.ListBox lsAdres;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.Button btnUpd;
     }
 }

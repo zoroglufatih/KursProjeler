@@ -19,6 +19,7 @@ namespace IleriPersonel
             InitializeComponent();
         }
         PersonelContext db = new PersonelContext();
+        Calisan secCalisan;
         private void FrmCalisan_Load(object sender, EventArgs e)
         {
             Doldur();
@@ -84,6 +85,50 @@ namespace IleriPersonel
             }
             
             DoldurCmIlce(secilenSehirId);
+        }
+
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int secId = (int)dataGridView1.CurrentRow.Cells[0].Value;
+            secCalisan = db.Set<Calisan>().Find(secId);
+            txAd.Text = secCalisan.Ad;
+            txSoyad.Text = secCalisan.Soyad;
+            txMaas.Text = secCalisan.Maas.ToString();
+            cbIlce.SelectedValue = secCalisan.IlceId;
+            cbSehir.SelectedValue = secCalisan.Ilce.SehirId;
+            cbEgitim.SelectedValue = secCalisan.EgitimId;
+            lsAdres.DataSource = secCalisan.AdresAl();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Calisan calisan = new Calisan();
+            calisan.Ad = txAd.Text;
+            calisan.Soyad = txSoyad.Text;
+            calisan.Maas = Convert.ToDecimal(txMaas.Text);
+            calisan.IlceId = (int)cbIlce.SelectedValue;
+            calisan.EgitimId = (int)cbEgitim.SelectedValue;
+            db.Set<Calisan>().Add(calisan);
+            db.SaveChanges();
+            Doldur();
+        }
+
+        private void btnUpd_Click(object sender, EventArgs e)
+        {
+            secCalisan.Ad = txAd.Text;
+            secCalisan.Soyad = txSoyad.Text;
+            secCalisan.Maas = Convert.ToDecimal(txMaas.Text);
+            secCalisan.IlceId = (int)cbIlce.SelectedValue;
+            secCalisan.EgitimId = (int)cbEgitim.SelectedValue;
+            db.SaveChanges();
+            Doldur();
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            db.Set<Calisan>().Remove(secCalisan);
+            db.SaveChanges();
+            Doldur();
         }
     }
 }

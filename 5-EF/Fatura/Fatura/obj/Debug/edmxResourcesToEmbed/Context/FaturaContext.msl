@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FaturaDbModelStoreContainer" CdmEntityContainer="FaturaDbEntities">
+    <EntitySetMapping Name="Birim">
+      <EntityTypeMapping TypeName="FaturaDbModel.Birim">
+        <MappingFragment StoreEntitySet="Birim">
+          <ScalarProperty Name="BirimId" ColumnName="BirimId" />
+          <ScalarProperty Name="BirimAd" ColumnName="BirimAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FatDetay">
+      <EntityTypeMapping TypeName="FaturaDbModel.FatDetay">
+        <MappingFragment StoreEntitySet="FatDetay">
+          <ScalarProperty Name="FatNoId" ColumnName="FatNoId" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="Bfiyat" ColumnName="Bfiyat" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FatMaster">
+      <EntityTypeMapping TypeName="FaturaDbModel.FatMaster">
+        <MappingFragment StoreEntitySet="FatMaster">
+          <ScalarProperty Name="FatNoId" ColumnName="FatNoId" />
+          <ScalarProperty Name="FatTarih" ColumnName="FatTarih" />
+          <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ilce">
+      <EntityTypeMapping TypeName="FaturaDbModel.Ilce">
+        <MappingFragment StoreEntitySet="Ilce">
+          <ScalarProperty Name="IlceId" ColumnName="IlceId" />
+          <ScalarProperty Name="IlceAd" ColumnName="IlceAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteri">
+      <EntityTypeMapping TypeName="FaturaDbModel.Musteri">
+        <MappingFragment StoreEntitySet="Musteri">
+          <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
+          <ScalarProperty Name="MusteriAd" ColumnName="MusteriAd" />
+          <ScalarProperty Name="MusteriSoyad" ColumnName="MusteriSoyad" />
+          <ScalarProperty Name="SehirId" ColumnName="SehirId" />
+          <ScalarProperty Name="MusteriAdres" ColumnName="MusteriAdres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sehir">
+      <EntityTypeMapping TypeName="FaturaDbModel.Sehir">
+        <MappingFragment StoreEntitySet="Sehir">
+          <ScalarProperty Name="SehirId" ColumnName="SehirId" />
+          <ScalarProperty Name="SehirAd" ColumnName="SehirAd" />
+          <ScalarProperty Name="IlceId" ColumnName="IlceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urun">
+      <EntityTypeMapping TypeName="FaturaDbModel.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAd" ColumnName="UrunAd" />
+          <ScalarProperty Name="UrunBFiyat" ColumnName="UrunBFiyat" />
+          <ScalarProperty Name="BirimId" ColumnName="BirimId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

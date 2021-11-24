@@ -72,6 +72,12 @@
     <Compile Include="FrmCalisan.Designer.cs">
       <DependentUpon>FrmCalisan.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEgitmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEgitmen.Designer.cs">
+      <DependentUpon>FrmEgitmen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSehir.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,10 @@
     <Compile Include="Migrations\202111191433212_ilk.Designer.cs">
       <DependentUpon>202111191433212_ilk.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111221252166_maaseklendi.cs" />
+    <Compile Include="Migrations\202111221252166_maaseklendi.Designer.cs">
+      <DependentUpon>202111221252166_maaseklendi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,6 +110,9 @@
     <EmbeddedResource Include="FrmCalisan.resx">
       <DependentUpon>FrmCalisan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEgitmen.resx">
+      <DependentUpon>FrmEgitmen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSehir.resx">
       <DependentUpon>FrmSehir.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111191433212_ilk.resx">
       <DependentUpon>202111191433212_ilk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111221252166_maaseklendi.resx">
+      <DependentUpon>202111221252166_maaseklendi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

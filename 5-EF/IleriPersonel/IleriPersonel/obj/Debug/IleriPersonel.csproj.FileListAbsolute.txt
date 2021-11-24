@@ -17,3 +17,5 @@ D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmSeh
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Migrations.ilk.resources
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmCalisan.resources
 D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Form1.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.Migrations.maaseklendi.resources
+D:\wissen\Kodlar\5-EF\IleriPersonel\IleriPersonel\obj\Debug\IleriPersonel.FrmEgitmen.resources

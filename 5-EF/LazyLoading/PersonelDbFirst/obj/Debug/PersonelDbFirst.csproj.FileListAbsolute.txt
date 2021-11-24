@@ -1,0 +1,17 @@
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\PersonelDbFirst.exe.config
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\PersonelDbFirst.exe
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\PersonelDbFirst.pdb
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\EntityFramework.dll
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\EntityFramework.xml
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.csproj.AssemblyReference.cache
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.Form1.resources
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.FrmPersonel.resources
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.Properties.Resources.resources
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.csproj.GenerateResource.cache
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.csproj.CoreCompileInputs.cache
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.csproj.CopyComplete
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.exe
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.pdb
+D:\wissen\Kodlar\5-EF\PersonelDbFirst\PersonelDbFirst\obj\Debug\PersonelDbFirst.FrmUnvan.resources

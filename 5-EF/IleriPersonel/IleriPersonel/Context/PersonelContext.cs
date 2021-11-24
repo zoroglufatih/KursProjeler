@@ -94,6 +94,7 @@ namespace IleriPersonel.Context
     }
     public class Calisan : TemelInsan
     {
+        public decimal Maas { get; set; }
         [ForeignKey("EgitimId")]
         public virtual Egitim Egitim { get; set; }
         [ForeignKey("IlceId")]

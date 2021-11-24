@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FaturaDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Birim">
+    <Key>
+      <PropertyRef Name="BirimId" />
+    </Key>
+    <Property Name="BirimId" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="BirimAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FatDetay">
+    <Key>
+      <PropertyRef Name="FatNoId" />
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="FatNoId" Type="int" Nullable="false" />
+    <Property Name="UrunId" Type="int" Nullable="false" />
+    <Property Name="Bfiyat" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Miktar" Type="int" />
+  </EntityType>
+  <EntityType Name="FatMaster">
+    <Key>
+      <PropertyRef Name="FatNoId" />
+    </Key>
+    <Property Name="FatNoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FatTarih" Type="date" />
+    <Property Name="MusteriId" Type="int" />
+  </EntityType>
+  <EntityType Name="Ilce">
+    <Key>
+      <PropertyRef Name="IlceId" />
+    </Key>
+    <Property Name="IlceId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IlceAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Musteri">
+    <Key>
+      <PropertyRef Name="MusteriId" />
+    </Key>
+    <Property Name="MusteriId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusteriAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="MusteriSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="SehirId" Type="int" />
+    <Property Name="MusteriAdres" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sehir">
+    <Key>
+      <PropertyRef Name="SehirId" />
+    </Key>
+    <Property Name="SehirId" Type="int" Nullable="false" />
+    <Property Name="SehirAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="IlceId" Type="int" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UrunAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="UrunBFiyat" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BirimId" Type="nvarchar" MaxLength="2" />
+  </EntityType>
+  <Association Name="FK_FatDetay_FatMaster">
+    <End Role="FatMaster" Type="Self.FatMaster" Multiplicity="1" />
+    <End Role="FatDetay" Type="Self.FatDetay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FatMaster">
+        <PropertyRef Name="FatNoId" />
+      </Principal>
+      <Dependent Role="FatDetay">
+        <PropertyRef Name="FatNoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FatDetay_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="1" />
+    <End Role="FatDetay" Type="Self.FatDetay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="FatDetay">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FatMaster_Musteri">
+    <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1" />
+    <End Role="FatMaster" Type="Self.FatMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musteri">
+        <PropertyRef Name="MusteriId" />
+      </Principal>
+      <Dependent Role="FatMaster">
+        <PropertyRef Name="MusteriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Musteri_Sehir">
+    <End Role="Sehir" Type="Self.Sehir" Multiplicity="0..1" />
+    <End Role="Musteri" Type="Self.Musteri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sehir">
+        <PropertyRef Name="SehirId" />
+      </Principal>
+      <Dependent Role="Musteri">
+        <PropertyRef Name="SehirId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sehir_Ilce">
+    <End Role="Ilce" Type="Self.Ilce" Multiplicity="0..1" />
+    <End Role="Sehir" Type="Self.Sehir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ilce">
+        <PropertyRef Name="IlceId" />
+      </Principal>
+      <Dependent Role="Sehir">
+        <PropertyRef Name="IlceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_Birim">
+    <End Role="Birim" Type="Self.Birim" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Birim">
+        <PropertyRef Name="BirimId" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="BirimId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FaturaDbModelStoreContainer">
+    <EntitySet Name="Birim" EntityType="Self.Birim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FatDetay" EntityType="Self.FatDetay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FatMaster" EntityType="Self.FatMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ilce" EntityType="Self.Ilce" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Musteri" EntityType="Self.Musteri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sehir" EntityType="Self.Sehir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_FatDetay_FatMaster" Association="Self.FK_FatDetay_FatMaster">
+      <End Role="FatMaster" EntitySet="FatMaster" />
+      <End Role="FatDetay" EntitySet="FatDetay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FatDetay_Urun" Association="Self.FK_FatDetay_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="FatDetay" EntitySet="FatDetay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FatMaster_Musteri" Association="Self.FK_FatMaster_Musteri">
+      <End Role="Musteri" EntitySet="Musteri" />
+      <End Role="FatMaster" EntitySet="FatMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Musteri_Sehir" Association="Self.FK_Musteri_Sehir">
+      <End Role="Sehir" EntitySet="Sehir" />
+      <End Role="Musteri" EntitySet="Musteri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sehir_Ilce" Association="Self.FK_Sehir_Ilce">
+      <End Role="Ilce" EntitySet="Ilce" />
+      <End Role="Sehir" EntitySet="Sehir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_Birim" Association="Self.FK_Urun_Birim">
+      <End Role="Birim" EntitySet="Birim" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

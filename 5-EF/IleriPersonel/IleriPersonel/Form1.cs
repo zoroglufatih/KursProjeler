@@ -25,7 +25,8 @@ namespace IleriPersonel
 
         private void eğitmenlerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            FrmEgitmen frm = new FrmEgitmen();
+            frm.Show();
         }
     }
 }
