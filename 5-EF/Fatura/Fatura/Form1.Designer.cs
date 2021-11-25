@@ -69,35 +69,35 @@ namespace Fatura
             // şehirToolStripMenuItem
             // 
             this.şehirToolStripMenuItem.Name = "şehirToolStripMenuItem";
-            this.şehirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.şehirToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.şehirToolStripMenuItem.Text = "Sehir";
             this.şehirToolStripMenuItem.Click += new System.EventHandler(this.şehirToolStripMenuItem_Click);
             // 
             // ilçeToolStripMenuItem
             // 
             this.ilçeToolStripMenuItem.Name = "ilçeToolStripMenuItem";
-            this.ilçeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ilçeToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.ilçeToolStripMenuItem.Text = "Ilce";
             this.ilçeToolStripMenuItem.Click += new System.EventHandler(this.ilçeToolStripMenuItem_Click);
             // 
             // urunToolStripMenuItem
             // 
             this.urunToolStripMenuItem.Name = "urunToolStripMenuItem";
-            this.urunToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.urunToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.urunToolStripMenuItem.Text = "Urun";
             this.urunToolStripMenuItem.Click += new System.EventHandler(this.urunToolStripMenuItem_Click);
             // 
             // musteriToolStripMenuItem
             // 
             this.musteriToolStripMenuItem.Name = "musteriToolStripMenuItem";
-            this.musteriToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.musteriToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.musteriToolStripMenuItem.Text = "Musteri";
             this.musteriToolStripMenuItem.Click += new System.EventHandler(this.musteriToolStripMenuItem_Click);
             // 
             // birimToolStripMenuItem
             // 
             this.birimToolStripMenuItem.Name = "birimToolStripMenuItem";
-            this.birimToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.birimToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.birimToolStripMenuItem.Text = "Birim";
             this.birimToolStripMenuItem.Click += new System.EventHandler(this.birimToolStripMenuItem_Click);
             // 
@@ -122,6 +122,7 @@ namespace Fatura
             this.girisToolStripMenuItem.Name = "girisToolStripMenuItem";
             this.girisToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.girisToolStripMenuItem.Text = "Giris";
+            this.girisToolStripMenuItem.Click += new System.EventHandler(this.girisToolStripMenuItem_Click);
             // 
             // flowLayoutPanel1
             // 

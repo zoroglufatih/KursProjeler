@@ -29,6 +29,7 @@
     <Property Name="MusteriId" Type="Int32" />
     <NavigationProperty Name="FatDetay" Relationship="Self.FK_FatDetay_FatMaster" FromRole="FatMaster" ToRole="FatDetay" />
     <NavigationProperty Name="Musteri" Relationship="Self.FK_FatMaster_Musteri" FromRole="FatMaster" ToRole="Musteri" />
+    <Property Name="SevkTarihi" Type="DateTime" Precision="0" />
   </EntityType>
   <EntityType Name="Ilce">
     <Key>

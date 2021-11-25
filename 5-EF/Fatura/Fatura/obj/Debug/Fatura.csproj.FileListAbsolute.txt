@@ -20,3 +20,4 @@ D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmFatura.resources
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmIlce.resources
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmMusteri.resources
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmBirim.resources
+D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmYFatura.resources

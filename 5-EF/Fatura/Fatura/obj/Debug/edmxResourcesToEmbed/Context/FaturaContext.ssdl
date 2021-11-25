@@ -24,6 +24,7 @@
     <Property Name="FatNoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="FatTarih" Type="date" />
     <Property Name="MusteriId" Type="int" />
+    <Property Name="SevkTarihi" Type="date" />
   </EntityType>
   <EntityType Name="Ilce">
     <Key>

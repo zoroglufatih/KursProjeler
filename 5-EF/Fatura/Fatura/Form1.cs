@@ -71,10 +71,23 @@ namespace Fatura
             }
             else
             {
-                FrmFatura frm = new FrmFatura(fm.FatNoId);
-                frm.Show();
-
+                if (fm.SevkTarihi == null)
+                {
+                    FrmFatura frm = new FrmFatura(fm.FatNoId, false);
+                    frm.Show();
+                }
+                else
+                {
+                    FrmFatura frm = new FrmFatura(fm.FatNoId, true);
+                    frm.Show();
+                }           
             }
+        }
+
+        private void girisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmYFatura frm = new FrmYFatura();
+            frm.Show();
         }
     }
 }

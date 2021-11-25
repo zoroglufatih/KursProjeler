@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="FaturaDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="FaturaDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Birim">
           <Key>
             <PropertyRef Name="BirimId" />
@@ -29,6 +29,7 @@
           <Property Name="FatNoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="FatTarih" Type="date" />
           <Property Name="MusteriId" Type="int" />
+          <Property Name="SevkTarihi" Type="date" />
         </EntityType>
         <EntityType Name="Ilce">
           <Key>
@@ -169,8 +170,7 @@
             <End Role="Urun" EntitySet="Urun" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="FaturaDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -203,6 +203,7 @@
           <Property Name="MusteriId" Type="Int32" />
           <NavigationProperty Name="FatDetay" Relationship="Self.FK_FatDetay_FatMaster" FromRole="FatMaster" ToRole="FatDetay" />
           <NavigationProperty Name="Musteri" Relationship="Self.FK_FatMaster_Musteri" FromRole="FatMaster" ToRole="Musteri" />
+          <Property Name="SevkTarihi" Type="DateTime" Precision="0" />
         </EntityType>
         <EntityType Name="Ilce">
           <Key>
@@ -377,6 +378,7 @@
           <EntitySetMapping Name="FatMaster">
             <EntityTypeMapping TypeName="FaturaDbModel.FatMaster">
               <MappingFragment StoreEntitySet="FatMaster">
+                <ScalarProperty Name="SevkTarihi" ColumnName="SevkTarihi" />
                 <ScalarProperty Name="FatNoId" ColumnName="FatNoId" />
                 <ScalarProperty Name="FatTarih" ColumnName="FatTarih" />
                 <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />

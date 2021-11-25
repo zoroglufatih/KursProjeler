@@ -23,6 +23,7 @@ namespace Fatura.Context
         public int FatNoId { get; set; }
         public Nullable<System.DateTime> FatTarih { get; set; }
         public Nullable<int> MusteriId { get; set; }
+        public Nullable<System.DateTime> SevkTarihi { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<FatDetay> FatDetay { get; set; }

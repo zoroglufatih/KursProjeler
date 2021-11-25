@@ -22,6 +22,7 @@
     <EntitySetMapping Name="FatMaster">
       <EntityTypeMapping TypeName="FaturaDbModel.FatMaster">
         <MappingFragment StoreEntitySet="FatMaster">
+          <ScalarProperty Name="SevkTarihi" ColumnName="SevkTarihi" />
           <ScalarProperty Name="FatNoId" ColumnName="FatNoId" />
           <ScalarProperty Name="FatTarih" ColumnName="FatTarih" />
           <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
