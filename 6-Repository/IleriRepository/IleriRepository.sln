@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IleriRepository", "IleriRepository\IleriRepository.csproj", "{1A37C72C-6E97-496C-BA2E-72D7204B5DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A37C72C-6E97-496C-BA2E-72D7204B5DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A37C72C-6E97-496C-BA2E-72D7204B5DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A37C72C-6E97-496C-BA2E-72D7204B5DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A37C72C-6E97-496C-BA2E-72D7204B5DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16068C4E-3166-4F30-AE56-9A00482DE22E}
+	EndGlobalSection
+EndGlobal
