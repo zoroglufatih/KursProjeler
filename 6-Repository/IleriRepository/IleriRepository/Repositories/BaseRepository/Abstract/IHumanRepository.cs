@@ -8,8 +8,5 @@ namespace IleriRepository.Repositories.BaseRepository.Abstract
 {
     public interface IHumanRepository
     {
-        string GetTitle();
-        int GetAge();
-        List<string> GetAddress();
     }
 }

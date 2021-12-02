@@ -10,20 +10,6 @@ namespace IleriRepository.Repositories.BaseRepository.Concrete
 {
     public class HumanRepository : BaseRepository<BaseHuman>, IHumanRepository
     {
-        BaseHuman bh = new BaseHuman();
-        public List<string> GetAddress()
-        {
-            return bh.GetAddress();
-        }
 
-        public int GetAge()
-        {
-            return bh.GetAge();
-        }
-
-        public string GetTitle()
-        {
-            return bh.GetTitle();
-        }
     }
 }

@@ -10,7 +10,7 @@ namespace IleriRepository.Repositories.BaseRepository.Abstract
 {
     public interface IBaseTableRepository
     {
-        ComboBox GetCombo();
+        ComboBox GetCombo(ComboBox cb);
         List<BaseTableDTO> GetOption();
     }
 }
