@@ -19,7 +19,6 @@ namespace IleriRepository.Repositories.BaseRepository.Concrete
             cb.ValueMember = "Id";
             return cb;
         }
-
         public List<BaseTableDTO> GetOption()
         {
             return Set().Select(x => new BaseTableDTO
@@ -44,12 +43,6 @@ namespace IleriRepository.Repositories.BaseRepository.Concrete
             cb1.DataSource = GetOption(cb2);
             return cb1;
         }
-        /*Set().Select(x => new
-            {
-                x.Id,
-                x.Name,
-                x.CityId
-            }).Where(x => x.CityId == (int)cb2.SelectedValue).ToList();*/
         public List<BaseTableDTO> SummaryList()
         {
             return Set().Select(x => new BaseTableDTO
