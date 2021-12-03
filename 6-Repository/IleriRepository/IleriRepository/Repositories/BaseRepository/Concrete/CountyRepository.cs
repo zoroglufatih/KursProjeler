@@ -28,18 +28,28 @@ namespace IleriRepository.Repositories.BaseRepository.Concrete
                 Name = x.Name
             }).ToList();
         }
+        public List<CountyDTO> GetOption(ComboBox cb2)
+        {
+            return Set().Select(x => new CountyDTO
+            {
+                Id = x.Id,
+                Name = x.Name,
+                CityId = x.CityId
+            }).Where(x => x.CityId == (int)cb2.SelectedValue).ToList();
+        }
         public ComboBox GetCombo(ComboBox cb1, ComboBox cb2)
         {
             cb1.DisplayMember = "Name";
             cb1.ValueMember = "Id";
-            cb1.DataSource = Set().Select(x => new
+            cb1.DataSource = GetOption(cb2);
+            return cb1;
+        }
+        /*Set().Select(x => new
             {
                 x.Id,
                 x.Name,
                 x.CityId
-            }).Where(x => x.CityId == (int)cb2.SelectedValue).ToList();
-            return cb1;
-        }
+            }).Where(x => x.CityId == (int)cb2.SelectedValue).ToList();*/
         public List<BaseTableDTO> SummaryList()
         {
             return Set().Select(x => new BaseTableDTO
@@ -48,14 +58,5 @@ namespace IleriRepository.Repositories.BaseRepository.Concrete
                 Name = x.Name
             }).ToList();
         }
-        /*public List<County> GetOption(ComboBox cb2)
-        {
-            return Set().Select(x => new
-            {
-                x.Id,
-                x.Name,
-                x.CityId
-            }).Where(x=> x.CityId == (int)cb2.SelectedValue).ToList();
-        }*/
     }
 }

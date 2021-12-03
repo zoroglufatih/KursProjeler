@@ -65,6 +65,7 @@
     <Compile Include="Concrete\Student.cs" />
     <Compile Include="Context\PerContext.cs" />
     <Compile Include="DTO\BaseTableDTO.cs" />
+    <Compile Include="DTO\CountyDTO.cs" />
     <Compile Include="DTO\HumanDTO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
