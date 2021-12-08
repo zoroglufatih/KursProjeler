@@ -1,0 +1,88 @@
+﻿body {
+}
+.fb {
+    background-color: blue;
+    color: yellow;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+}
+.gs {
+    background-color: red;
+    color: yellow;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+}
+.bjk {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+}
+.ts {
+    background-color: blue;
+    color: darkred;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+}
+.border {
+    border:2px double purple;
+    border-radius: 15px;
+}
+/*button {
+    background-color: purple;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    color: aqua;
+}*/
+.fb > button {
+    background-color: blue;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    color: yellow;
+    font-family: Arial;
+    font-size: 12px;
+}
+.gs > button {
+    background-color: red;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    color: yellow;
+    font-family: Arial;
+    font-size: 12px;
+}
+.bjk > button {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+.ts > button {
+    background-color: blue;
+    border: 5px solid darkred;
+    border-radius: 10px;
+    color: darkred;
+    font-family: Arial;
+    font-size: 12px;
+}

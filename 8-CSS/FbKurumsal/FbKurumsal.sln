@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FbKurumsal", "FbKurumsal\FbKurumsal.csproj", "{08A27127-F8D0-4813-AE49-2D1616B63D59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A27127-F8D0-4813-AE49-2D1616B63D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A27127-F8D0-4813-AE49-2D1616B63D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A27127-F8D0-4813-AE49-2D1616B63D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A27127-F8D0-4813-AE49-2D1616B63D59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C972245-D5BB-4510-9E19-7B9ACE6FE524}
+	EndGlobalSection
+EndGlobal

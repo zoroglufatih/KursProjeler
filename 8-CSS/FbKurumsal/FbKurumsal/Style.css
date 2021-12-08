@@ -1,0 +1,44 @@
+﻿body {
+}
+
+h2{
+    color: blue;
+    font-family: Verdana;
+}
+
+p {
+    background-color: blue;
+    color: yellow;
+    font-family: Verdana;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+button{
+    color: blue;
+    background-color: yellow;
+    border: 3px solid blue;
+    border-radius: 10px;
+}

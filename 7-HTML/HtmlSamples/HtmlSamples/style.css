@@ -1,0 +1,27 @@
+﻿body {
+}
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px 40px;
+    border-style:solid;
+}
+th{
+    background-color: blue;
+}
+td{
+    background-color: aqua;
+}
+table{
+    border-collapse:collapse;
+}
+.forms{
+    width:500px;
+    height: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color: gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    left:400px;
+}

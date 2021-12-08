@@ -1,0 +1,64 @@
+﻿body {
+}
+
+.team {
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+    border: 2px double purple;
+    border-radius: 15px;
+}
+
+    .team > button {
+        border-radius: 10px;
+        font-family: Arial;
+        font-size: 12px;
+    }
+
+.fb {
+    background-color: blue;
+    color: yellow;
+}
+
+    .fb > button {
+        background-color: blue;
+        color: yellow;
+        border: 3px solid yellow;
+    }
+
+.gs {
+    background-color: red;
+    color: yellow;
+}
+
+    .gs > button {
+        background-color: red;
+        color: yellow;
+        border: 3px solid yellow;
+    }
+
+.bjk {
+    background-color: black;
+    color: white;
+}
+
+    .bjk > button {
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+    }
+
+.ts {
+    background-color: blue;
+    color: darkred;
+}
+
+    .ts > button {
+        background-color: blue;
+        color: darkred;
+        border: 3px solid darkred;
+    }
