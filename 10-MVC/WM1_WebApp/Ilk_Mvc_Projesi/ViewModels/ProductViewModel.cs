@@ -4,17 +4,13 @@ namespace Ilk_Mvc_Projesi.ViewModels
 {
     public class ProductViewModel
     {
-        public int ProductID { get; set; }
-        [Required(ErrorMessage = "Ürün Adı alanı gereklidir.")]
-        [StringLength(40, ErrorMessage = "Ürün Adı alanı en fazla 40 karakter olabilir.")]
-        [Display(Name = "Ürün Adı")]
+        public int ProductId { get; set; }
         public string ProductName { get; set; }
-        [Display(Name ="Kategori Numarası")]
-        public int CategoryID { get; set; }
-        [Display(Name = "Fiyat")]
-        public decimal UnitPrice { get; set; }
-        [Required(ErrorMessage ="Bu alan zorunludur")]
-        [Display(Name = "Satışta mı?")]
-        public bool Discontinued { get; set; }
+        public int? CategoryId { get; set; }
+        public string CategoryName { get; set; }
+        public int? SupplierId { get; set; }
+        public string CompanyName { get; set; }
+        [Range(0,999999999,ErrorMessage = "Ürün fiyatı 0-999999999 arasında olmalıdır.")]
+        public decimal? UnitPrice { get; set; }
     }
 }

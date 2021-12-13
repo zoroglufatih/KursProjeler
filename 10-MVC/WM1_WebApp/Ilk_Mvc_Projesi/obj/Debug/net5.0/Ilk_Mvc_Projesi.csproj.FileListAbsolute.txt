@@ -390,4 +390,4 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\Category\Update.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs
-D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\Ilk_Mvc_Projesi\obj\Debug\net5.0\Razor\Views\Product\Update.cshtml.g.cs
