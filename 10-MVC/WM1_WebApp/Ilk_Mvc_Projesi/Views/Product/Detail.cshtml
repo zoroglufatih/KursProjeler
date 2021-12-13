@@ -1,0 +1,30 @@
+﻿@model Product
+
+<h1>@Model.ProductName</h1>
+<h3>@Model.QuantityPerUnit</h3>
+<a class="btn btn-info" asp-controller="Product" asp-action="Create">Yeni Ürün</a>
+<a class="btn btn-danger" asp-controller="Product" asp-route-productId="@Model.ProductId">Ürünü sil</a>
+<div class="row">
+    <div class="col-9">
+        <table class="table-bordered">
+            <thead>
+                <tr>
+                    <th>Kategori Adı</th>
+                    <th>Ürün Adı</th>
+                    <th>Ürün Fiyatı</th>
+                    <th>Sipariş Sayısı</th>
+                    <th>Sipariş Hacmi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Category.CategoryName</td>
+                    <td>@Model.ProductName</td>
+                    <td>@Model.UnitPrice</td>
+                    <td>@Model.OrderDetails.Count</td>
+                    <td>@Model.OrderDetails.Sum(x=> x.UnitPrice*x.Quantity*(decimal)(1-x.Discount))</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
