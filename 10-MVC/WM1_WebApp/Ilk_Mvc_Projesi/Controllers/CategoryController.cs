@@ -36,7 +36,7 @@ namespace Ilk_Mvc_Projesi.Controllers
             var category2 = from cat in _context.Categories
                             join prod in _context.Products on cat.CategoryId equals prod.CategoryId
                             join odetail in _context.OrderDetails on prod.ProductId equals odetail.ProductId
-                            where category.CategoryId == id
+                            where cat.CategoryId == id
                             select cat;
             var model = category2.FirstOrDefault();
             if(category == null) 
