@@ -1,5 +1,6 @@
 ﻿using ItServiceApp.Models;
 using ItServiceApp.Models.Identity;
+using ItServiceApp.Services;
 using ItServiceApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -15,12 +16,18 @@ namespace ItServiceApp.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<ApplicationRole> _roleManager;
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<ApplicationRole> roleManager)
+        private readonly IEmailSender _emailSender;
+        public AccountController(UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager, 
+            RoleManager<ApplicationRole> roleManager, 
+            IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _emailSender = emailSender;
             CheckRoles();
+            
         }
 
         private void CheckRoles()
@@ -74,6 +81,13 @@ namespace ItServiceApp.Controllers
             {
                 var count = _userManager.Users.Count();
                 result = await _userManager.AddToRoleAsync(user, count == 1 ? RoleModels.Admin : RoleModels.User);
+
+                await _emailSender.SendAsync(new EmailMessage()
+                {
+                    Contacts = new string[] { model.Email },
+                    Subject = $"{model.UserName} - Kullanıcı Kayıt Yaptı",
+                    Body = $"Sn. {model.Name} {model.Surname} sitemize {DateTime.Now:g} itibari ile sitemize kayıt yaptınız. Kayıt yaptığınız için teşekkür ederiz."
+                });
                 //kullanıcıya rol atama
                 //email onay maili
                 //login sayfasına yönlendirme
@@ -102,6 +116,15 @@ namespace ItServiceApp.Controllers
 
             if (result.Succeeded)
             {
+                var user = await _userManager.FindByNameAsync(model.UserName);
+
+                await _emailSender.SendAsync(new EmailMessage()
+                {
+                    Contacts = new string[] { "fatih.zorogluu@gmail.com" },
+                    Subject = $"{user.UserName} - Kullanıcı Giriş Yaptı",
+                    Body = $"{user.Name} {user.Surname} isimli kullanıcı {DateTime.Now:g} itibari ile siteye giriş yapmıştr."
+                });
+
                 return RedirectToAction("Index", "Home");
             }
             else

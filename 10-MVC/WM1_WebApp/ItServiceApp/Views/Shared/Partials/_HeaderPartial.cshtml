@@ -9,6 +9,17 @@
                     <a href="index.html"><img src="~/assets/img/logo.png" alt="Omnivus"></a>
                 </div>
             </div>
+            @if (SignInManager.IsSignedIn(Context.User))
+            {
+                if (User.IsInRole("Admin"))
+                {
+                    <h2>Admin Sayfası</h2>
+                }else
+            {
+                <h2>Kullanıcı sayfası</h2>
+            }
+            }
+            
             <div class="header-right d-flex align-items-center justify-content-end">
                 <div class="site-nav-menu">
                     <ul class="primary-menu">
@@ -132,7 +143,6 @@
                                 <a asp-controller="Account" asp-action="Login"> Giriş Yap <i class="fal fa-long-arrow-right"></i></a>
                             }
                         }*@
-
                         @if (SignInManager.IsSignedIn(Context.User))
                         {
                             <a asp-controller="Account" asp-action="Logout"> Çıkış Yap <i class="fal fa-long-arrow-right"></i></a>
