@@ -9,17 +9,18 @@
                     <a href="index.html"><img src="~/assets/img/logo.png" alt="Omnivus"></a>
                 </div>
             </div>
-            @if (SignInManager.IsSignedIn(Context.User))
-            {
+            @*@if (SignInManager.IsSignedIn(Context.User))
+                {
                 if (User.IsInRole("Admin"))
                 {
-                    <h2>Admin Sayfası</h2>
-                }else
-            {
+                <h2>Admin Sayfası</h2>
+                }
+                else
+                {
                 <h2>Kullanıcı sayfası</h2>
-            }
-            }
-            
+                }
+                }*@
+
             <div class="header-right d-flex align-items-center justify-content-end">
                 <div class="site-nav-menu">
                     <ul class="primary-menu">
@@ -84,6 +85,12 @@
                         <li>
                             <a href="contact.html">Contact</a>
                         </li>
+                        @if (SignInManager.IsSignedIn(Context.User))
+                        {
+                            <li>
+                                <a asp-action="Profile" asp-controller="Account">Profil</a>
+                            </li>
+                        }
                     </ul>
                     <a href="#" class="nav-close"><i class="fal fa-times"></i></a>
                 </div>
@@ -114,35 +121,39 @@
                         @*@{
                             if (User.Identity.IsAuthenticated)
                             {
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                @User.Identity.Name
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                <li><hr class="dropdown-divider"></li>
-                                                <li><a class="dropdown-item" href="#">Separated link</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <form method="get">
-                                            <input type="submit" asp-controller="Account" asp-action="Logout" class="btn btn-danger" value="Çıkış Yap">
-                                        </form>
-                                    </div>
-                                </div>
-                                <!-- Example single danger button -->
-                                //<a asp-action="Logout" asp-controller="Account"> Çıkış Yap <i class="fal fa-long-arrow-right"></i></a>
+                            <div class="row">
+                            <div class="col-6">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            @User.Identity.Name
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <div class="col-6">
+                            <form method="get">
+                            <input type="submit" asp-controller="Account" asp-action="Logout" class="btn btn-danger" value="Çıkış Yap">
+                            </form>
+                            </div>
+                            </div>
+                            <!-- Example single danger button -->
+                            //<a asp-action="Logout" asp-controller="Account"> Çıkış Yap <i class="fal fa-long-arrow-right"></i></a>
                             }
                             else
                             {
-                                <a asp-controller="Account" asp-action="Login"> Giriş Yap <i class="fal fa-long-arrow-right"></i></a>
+                            <a asp-controller="Account" asp-action="Login"> Giriş Yap <i class="fal fa-long-arrow-right"></i></a>
                             }
-                        }*@
+                            }*@
+                        @if (!SignInManager.IsSignedIn(Context.User))
+                        {
+                            <a asp-controller="Account" asp-action="Register" class="btn-primary">Kayıt OL</a>
+                        }
                         @if (SignInManager.IsSignedIn(Context.User))
                         {
                             <a asp-controller="Account" asp-action="Logout"> Çıkış Yap <i class="fal fa-long-arrow-right"></i></a>

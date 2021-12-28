@@ -431,3 +431,6 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\runtimes\win\li
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Shared\Partials\_PageTitlePartial.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\UpdatePassword.cshtml.g.cs
