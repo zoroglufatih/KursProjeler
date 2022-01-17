@@ -6,7 +6,6 @@ D:\wissen\Kodlar\5-EF\Fatura\Fatura\bin\Debug\EntityFramework.SqlServer.dll
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\bin\Debug\EntityFramework.xml
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\bin\Debug\EntityFramework.SqlServer.xml
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.csproj.AssemblyReference.cache
-D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.csproj.SuggestedBindingRedirects.cache
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Form1.resources
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmSehir.resources
 D:\wissen\Kodlar\5-EF\Fatura\Fatura\obj\Debug\Fatura.Forms.FrmUrun.resources

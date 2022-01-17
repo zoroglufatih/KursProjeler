@@ -434,3 +434,5 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Sha
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\UpdatePassword.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ConfirmResetPassword.cshtml.g.cs

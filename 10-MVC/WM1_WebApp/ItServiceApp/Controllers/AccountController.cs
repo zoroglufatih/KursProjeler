@@ -21,9 +21,9 @@ namespace ItServiceApp.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly IEmailSender _emailSender;
-        public AccountController(UserManager<ApplicationUser> userManager, 
-            SignInManager<ApplicationUser> signInManager, 
-            RoleManager<ApplicationRole> roleManager, 
+        public AccountController(UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            RoleManager<ApplicationRole> roleManager,
             IEmailSender emailSender)
         {
             _userManager = userManager;
@@ -31,7 +31,7 @@ namespace ItServiceApp.Controllers
             _roleManager = roleManager;
             _emailSender = emailSender;
             CheckRoles();
-            
+
         }
 
         private void CheckRoles()
@@ -90,7 +90,7 @@ namespace ItServiceApp.Controllers
                 //email onay maili
                 var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                 code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-                var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol:Request.Scheme);
+                var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Scheme);
 
                 var emailMessage = new EmailMessage()
                 {
@@ -114,14 +114,14 @@ namespace ItServiceApp.Controllers
         [HttpGet]
         public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
-            if(userId == null || code == null)
+            if (userId == null || code == null)
             {
                 return RedirectToAction("Index", "Home");
             }
 
             var user = await _userManager.FindByIdAsync(userId);
 
-            if(user == null)
+            if (user == null)
             {
                 return NotFound($"Unable to load user with ID '{userId}'.");
             }
@@ -130,7 +130,7 @@ namespace ItServiceApp.Controllers
             var result = await _userManager.ConfirmEmailAsync(user, code);
             ViewBag.StatusMessage = result.Succeeded ? "Thank you for confirming your email." : "Error confirming your email.";
 
-            if(result.Succeeded && _userManager.IsInRoleAsync(user, RoleModels.Passive).Result)
+            if (result.Succeeded && _userManager.IsInRoleAsync(user, RoleModels.Passive).Result)
             {
                 await _userManager.RemoveFromRoleAsync(user, RoleModels.Passive);
                 await _userManager.AddToRoleAsync(user, RoleModels.User);
@@ -206,7 +206,7 @@ namespace ItServiceApp.Controllers
 
             user.Name = model.Name;
             user.Surname = model.Surname;
-            if(user.Email != model.Email)
+            if (user.Email != model.Email)
             {
                 await _userManager.RemoveFromRoleAsync(user, RoleModels.User);
                 await _userManager.RemoveFromRoleAsync(user, RoleModels.Passive);
@@ -263,7 +263,90 @@ namespace ItServiceApp.Controllers
                 ViewBag.Message = $"Bir Hata oluştu {ModelState.ToFullErrorString()}";
             }
 
-            return RedirectToAction("Profile");
+            return RedirectToAction(nameof(Profile));
+        }
+
+        [AllowAnonymous]
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                ViewBag.Message = "Girdiğiniz email bulunamadı.";
+            }
+            else
+            {
+                var code = await _userManager.GeneratePasswordResetTokenAsync(user);
+                code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+                var callbackUrl = Url.Action("ConfirmResetPassword", "Account", new
+                { userId = user.Id, code = code },
+                    protocol: Request.Scheme);
+
+                var emailMessage = new EmailMessage()
+                {
+                    Contacts = new string[] {user.Email},
+                    Body =
+                        $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>Click Here</a>",
+                    Subject = "Reset Password"
+                };
+                await _emailSender.SendAsync(emailMessage);
+                ViewBag.Message = "Mailinize Şifre güncelleme yönergemiz gönderilmiştir.";
+            }
+
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult ConfirmResetPassword(string userId, string code)
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(code))
+            {
+                return BadRequest("Hatalı istek");
+            }
+
+            ViewBag.Code = code;
+            ViewBag.UserId = userId;
+
+            return View();
+        }
+
+        [AllowAnonymous, HttpPost]
+        public async Task<IActionResult> ConfirmResetPasswordAsync(ResetPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await _userManager.FindByIdAsync(model.UserId);
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Kullanıcı bulunamadı");
+                return View();
+            }
+
+            var code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(model.Code));
+
+            var result = await _userManager.ResetPasswordAsync(user, code, model.NewPassword);
+            if (result.Succeeded)
+            {
+                // email gönder
+                TempData["Message"] = "Şifre değişikliğiniz gerçekleşmiştir.";
+                return View();
+            }
+            else
+            {
+                var message = string.Join("<br>", result.Errors.Select(x => x.Description));
+                TempData["Message"] = message;
+                return View();
+            }
         }
     }
 }

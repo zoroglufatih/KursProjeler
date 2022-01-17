@@ -1,5 +1,6 @@
 ﻿using Ilk_Mvc_Projesi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,12 @@ namespace Ilk_Mvc_Projesi.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly NorthwindContext _dbContext;
+
+        public HomeController(NorthwindContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -20,8 +27,11 @@ namespace Ilk_Mvc_Projesi.Controllers
 
         public IActionResult Index()
         {
-            
-            return View();
+            var model = _dbContext.Products
+                .Include(x => x.Category)
+                .OrderBy(x=> x.ProductName)
+                .ToList();
+            return View(model);
         }
 
         public IActionResult Privacy()
