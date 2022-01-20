@@ -62,7 +62,8 @@ namespace ItServiceApp
                 options.SlidingExpiration = true;
             });
 
-            services.AddTransient<IEmailSender, EmailSender>();
+            services.AddTransient<IEmailSender, EmailSender>(); // loose coupling (Gevþek baðlý)
+            services.AddScoped<IPaymentService, IyzicoPaymentService>(); // loose coupling
             services.AddAutoMapper(options =>
             {
                 //options.AddProfile<PaymentProfile>();

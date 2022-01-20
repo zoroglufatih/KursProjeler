@@ -20,7 +20,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "8baf1afa-5db0-4613-93f3-f69470e82570": {
+      "ProjectGuid": "8baf1afa-5db0-4613-93f3-f69470e82570",
+      "DisplayName": "ItServiceApp.Test",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

@@ -96,7 +96,6 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -120,8 +119,6 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -220,7 +217,6 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Ref
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Runtime.dll
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -436,3 +432,12 @@ D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Acc
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\UpdatePassword.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
 D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Account\ConfirmResetPassword.cshtml.g.cs
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\AutoMapper.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\Iyzipay.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\bin\Debug\net5.0\MUsefulMethods.dll
+D:\wissen\Kodlar\10-MVC\WM1_WebApp\ItServiceApp\obj\Debug\net5.0\Razor\Views\Payment\Index.cshtml.g.cs
